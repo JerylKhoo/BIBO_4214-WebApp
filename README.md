@@ -11,4 +11,8 @@ Ensure that the following has been setup properly:
 * [bots_4214](https://github.com/acidMyke/bots_4214)
 
 ## Setup
+Fill in the following Variables:
+* [TOTP_SERVER_LINK (1st Line of ./js/script.js)](https://github.com/JerylKhoo/BIBO_4214-WebApp/blob/ad28eaa9f744a321a486e1c9bb1c9f99b536f2b5/js/script.js#L1)
+* [TELEGRAM_BOT_LINK (24th Line of ./qr.html)](https://github.com/JerylKhoo/BIBO_4214-WebApp/blob/ad28eaa9f744a321a486e1c9bb1c9f99b536f2b5/qr.html#L24)
+
 Just throw all values into a S3 Bucket, ensure the prerequisites are running and tadah it should be working!!! :D
