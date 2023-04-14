@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta lang="en">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <title>42SAR BIBO</title>
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body onload=indexload()>
+  <img src="img/42.png" width="200px" height="200px" class="center">
+  <form class="login-form" id="main-form" novalidate autocomplete="off">
+    <div class="container d-flex flex-row justify-content-center mt-2">
+      <input id="totp" type="text" onkeypress="return check(event)" class="m-1 text-center form-control rounded" maxlength="6">
+    </div>
+      <br>
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
